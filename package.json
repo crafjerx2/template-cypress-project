@@ -1,0 +1,31 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "automation",
+  "main": "index.js",
+  "scripts": {
+    "test:one": "npx cypress run --config-file ./cypress.config.one.ts",
+    "test:one:open": "npx cypress open --config-file ./cypress.config.one.ts"
+  },
+  "author": "Carlos Pineda",
+  "license": "ISC",
+  "dependencies": {
+    "axe-core": "^4.8.3",
+    "cypress-axe": "^1.5.0",
+    "dotenv": "^16.4.5",
+    "test": "^3.3.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "cypress": "^13.7.1",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.1"
+  }
+}
